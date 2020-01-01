@@ -19,7 +19,7 @@ class RegisterBusinessType extends Equatable {
       "RegisterBusinessType { businessName: $businessName, businessType: $businessType, emailAddress: $emailAddress }";
 
   @override
-  List<Object> get props => [businessType, businessType, emailAddress];
+  List<Object> get props => [businessName, businessType, emailAddress];
 
   static RegisterBusinessType changeBusinessName({
     @required RegisterBusinessType registerBusinessType,
